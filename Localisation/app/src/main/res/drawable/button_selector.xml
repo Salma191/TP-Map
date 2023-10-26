@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <selector xmlns:android="http://schemas.android.com/apk/res/android">
+        <!-- État normal du bouton -->
+        <item android:state_pressed="false" android:state_enabled="true">
+            <shape android:shape="rectangle">
+                <solid android:color="#A9519A" /> <!-- Couleur de fond en mode normal -->
+            </shape>
+        </item>
+        <!-- État appuyé du bouton -->
+        <item android:state_pressed="true">
+            <shape android:shape="rectangle">
+                <solid android:color="#FF0000" /> <!-- Couleur de fond lorsque le bouton est appuyé -->
+            </shape>
+        </item>
+        <!-- Autres états (désactivé, etc.) -->
+    </selector>
